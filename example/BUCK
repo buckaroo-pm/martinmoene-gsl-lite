@@ -1,0 +1,19 @@
+cxx_binary(
+  name = '01-basic',
+  srcs = [
+    '01-basic.cpp',
+  ],
+  deps = [
+    '//:gsl-lite',
+  ],
+)
+
+cxx_binary(
+  name = '02-span',
+  srcs = [
+    '02-span.cpp',
+  ],
+  deps = [
+    '//:gsl-lite',
+  ],
+)
